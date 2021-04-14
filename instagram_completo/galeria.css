@@ -1,0 +1,57 @@
+.wrapper {
+  width: 500px;
+  background-color: white;
+  font-family: "Orelega One", cursive;
+}
+.head {
+  display: flex; /*siempre trabaja con hijos, hijos de hijos no son afectados*/
+  /*justify-content: center; /*alinea al centro como si fuera margen auto*/
+  align-items: center; /* por defecto centra en vertical*/
+  margin: 0px;
+  height: 50px;
+  width: 470px;
+  justify-content: center;
+  margin-left: 15px;
+}
+.head > * {
+  /*paratodo hijos del head*/
+  margin: 0;
+}
+.head > i {
+  font-size: 25px;
+}
+.head > h5 {
+  /*para los h5 q estan dentro del head*/
+  width: 450px;
+  margin-left: 6px;
+}
+.body {
+  display: flex;
+  justify-content: center;
+}
+.body > img {
+  width: 500px; /*maximo de ancho*/
+  height: 400px;
+  object-fit: cover;
+}
+/*estilos de iconos*/
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon > i,
+.iizq {
+  font-size: 25px;
+  margin-top: 15px;
+  margin: 10px 5px 10px 5px;
+}
+
+/*.far.fa-bookmark{
+    position: relative;
+    left: 365px;
+} */
+.description,
+.likes {
+  margin: 6px;
+}
