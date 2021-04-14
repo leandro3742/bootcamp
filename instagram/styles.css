@@ -1,0 +1,25 @@
+.navbar{
+    display: block;
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton_Setting{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.boton_Create{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*  */
